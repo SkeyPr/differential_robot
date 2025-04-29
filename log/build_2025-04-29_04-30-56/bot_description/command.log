@@ -1,0 +1,2 @@
+Invoking command in '/home/predator/akash_ws/build/bot_description': /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20
+Invoked command in '/home/predator/akash_ws/build/bot_description' returned '2': /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20

@@ -1,0 +1,45 @@
+[0.005s] Invoking command in '/home/predator/akash_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/predator/akash_ws/install/bot_description:/home/predator/akash_ws/install/bot_world:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_world -- -j20 -l20
+[0.019s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.093s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.107s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.109s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.112s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.117s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.123s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.140s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.140s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.208s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.237s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.275s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.275s] -- Added test 'lint_cmake' to check CMake code style
+[0.275s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.276s] -- Added test 'xmllint' to check XML markup files
+[0.276s] -- Configuring done
+[0.278s] -- Generating done
+[0.279s] -- Build files have been written to: /home/predator/akash_ws/build/bot_world
+[0.296s] Invoked command in '/home/predator/akash_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/predator/akash_ws/install/bot_description:/home/predator/akash_ws/install/bot_world:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_world -- -j20 -l20
+[0.297s] Invoking command in '/home/predator/akash_ws/build/bot_world': CMAKE_PREFIX_PATH=/home/predator/akash_ws/install/bot_description:/home/predator/akash_ws/install/bot_world:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_world
+[0.302s] -- Install configuration: ""
+[0.302s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world//worlds
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//worlds/world2
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//worlds/world1
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//worlds/world1.world
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//worlds/world2.world
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//launch
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world//launch/spawn_bot.launch.py
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+[0.302s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+[0.302s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+[0.302s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/path.sh
+[0.302s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/path.dsv
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.bash
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.sh
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.zsh
+[0.303s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.dsv
+[0.303s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/package.dsv
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+[0.303s] -- Up-to-date: /home/predator/akash_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+[0.303s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/package.xml
+[0.304s] Invoked command in '/home/predator/akash_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=/home/predator/akash_ws/install/bot_description:/home/predator/akash_ws/install/bot_world:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_world

@@ -1,0 +1,59 @@
+[0.007s] Invoking command in '/home/predator/akash_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20
+[0.024s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.094s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.109s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.110s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.113s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.124s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.141s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.142s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.200s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.231s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.237s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.284s] -- Configuring done
+[0.290s] -- Generating done
+[0.292s] -- Build files have been written to: /home/predator/akash_ws/build/bot_description
+[0.310s] [35m[1mConsolidate compiler generated dependencies of target controller[0m
+[0.311s] [35m[1mConsolidate compiler generated dependencies of target diffdrive[0m
+[0.320s] [ 25%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[0.324s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive.dir/src/diffdrive.cpp.o[0m
+[2.615s] [ 75%] [32m[1mLinking CXX executable controller[0m
+[2.615s] [100%] [32m[1mLinking CXX executable diffdrive[0m
+[2.725s] [100%] Built target diffdrive
+[2.729s] [100%] Built target controller
+[2.736s] Invoked command in '/home/predator/akash_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20
+[2.742s] Invoking command in '/home/predator/akash_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_description
+[2.747s] -- Install configuration: ""
+[2.747s] -- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/controller
+[2.747s] -- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/controller" to ""
+[2.747s] -- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive
+[2.748s] -- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive" to ""
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/final.launch.py
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/controller.launch.py
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/view_bot.launch.py
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__/spawn.launch.cpython-310.pyc
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/spawn.launch.py
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz/bot.rviz
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//description
+[2.748s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description/bot.urdf
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description//description/gazebo_control.xacro
+[2.748s] -- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[2.748s] -- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[2.748s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[2.749s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.sh
+[2.749s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.dsv
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.bash
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.sh
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.zsh
+[2.749s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.dsv
+[2.749s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.dsv
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[2.749s] -- Up-to-date: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[2.749s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.xml
+[2.750s] Invoked command in '/home/predator/akash_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_description

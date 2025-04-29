@@ -1,0 +1,58 @@
+[0.006s] Invoking command in '/home/predator/akash_ws/build/bot_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/bot_world -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_world
+[0.044s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.133s] -- Detecting C compiler ABI info - done
+[0.142s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.142s] -- Detecting C compile features
+[0.142s] -- Detecting C compile features - done
+[0.144s] -- Detecting CXX compiler ABI info
+[0.200s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.208s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.301s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.351s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.374s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.381s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.387s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.395s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.418s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.419s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.475s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.498s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.529s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.536s] -- Looking for pthread.h
+[0.590s] -- Looking for pthread.h - found
+[0.590s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.652s] -- Found Threads: TRUE  
+[0.681s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.721s] -- Added test 'lint_cmake' to check CMake code style
+[0.721s] -- Added test 'xmllint' to check XML markup files
+[0.722s] -- Configuring done
+[0.724s] -- Generating done
+[0.725s] -- Build files have been written to: /home/predator/akash_ws/build/bot_world
+[0.731s] Invoked command in '/home/predator/akash_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/bot_world -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_world
+[0.732s] Invoking command in '/home/predator/akash_ws/build/bot_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_world -- -j20 -l20
+[0.759s] Invoked command in '/home/predator/akash_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_world -- -j20 -l20
+[0.760s] Invoking command in '/home/predator/akash_ws/build/bot_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_world
+[0.766s] -- Install configuration: ""
+[0.766s] -- Installing: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/package_run_dependencies/bot_world
+[0.766s] -- Installing: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/parent_prefix_path/bot_world
+[0.766s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.sh
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/ament_prefix_path.dsv
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/path.sh
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/environment/path.dsv
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.bash
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.sh
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.zsh
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/local_setup.dsv
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/package.dsv
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/ament_index/resource_index/packages/bot_world
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig.cmake
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/cmake/bot_worldConfig-version.cmake
+[0.767s] -- Installing: /home/predator/akash_ws/install/bot_world/share/bot_world/package.xml
+[0.769s] Invoked command in '/home/predator/akash_ws/build/bot_world' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_world

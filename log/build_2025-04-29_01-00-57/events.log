@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000495] (bot_description) JobQueued: {'identifier': 'bot_description', 'dependencies': OrderedDict()}
+[0.000525] (bot_description) JobStarted: {'identifier': 'bot_description'}
+[0.005061] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'cmake'}
+[0.005378] (bot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/predator/akash_ws/src/bot_description', '-DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_description'], 'cwd': '/home/predator/akash_ws/build/bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'predator'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/predator'), ('OLDPWD', '/home/predator/akash_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5011'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/predator/akash_ws/install:/home/predator/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'predator'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'predator'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/predator/assignment_ws/install/testbed_description/share/testbed_description'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/lib/gazebo_ros:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/predator-Predator-PH315-55:@/tmp/.ICE-unix/1828,unix/predator-Predator-PH315-55:/tmp/.ICE-unix/1828'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa70ee4e_4ce9_4a27_8acb_48c86916e6b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5A8A52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/predator/akash_ws/build/bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/predator/assignment_ws/install/testbed_description/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble')]), 'shell': False}
+[0.045722] (bot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.080249] (bot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.084759] (bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099871] (-) TimerEvent: {}
+[0.134209] (bot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.139281] (bot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.139562] (bot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.139675] (bot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.141485] (bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.199561] (bot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.199919] (-) TimerEvent: {}
+[0.206025] (bot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.206189] (bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.206557] (bot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.207913] (bot_description) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300065] (-) TimerEvent: {}
+[0.305647] (bot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.362373] (bot_description) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.388292] (bot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.391110] (bot_description) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.396382] (bot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.400187] (-) TimerEvent: {}
+[0.403428] (bot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.414361] (bot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.439534] (bot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.441069] (bot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.500322] (-) TimerEvent: {}
+[0.503778] (bot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.522570] (bot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.548743] (bot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.553125] (bot_description) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.600543] (-) TimerEvent: {}
+[0.605944] (bot_description) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.606086] (bot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.662855] (bot_description) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.663887] (bot_description) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.691519] (bot_description) StdoutLine: {'line': b'-- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)\n'}
+[0.697719] (bot_description) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[0.698440] (bot_description) StdoutLine: {'line': b"-- Checking for module 'bullet>=2.82'\n"}
+[0.700612] (-) TimerEvent: {}
+[0.708497] (bot_description) StdoutLine: {'line': b'--   Found bullet, version 3.05\n'}
+[0.792686] (bot_description) StdoutLine: {'line': b'-- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") \n'}
+[0.800819] (-) TimerEvent: {}
+[0.851515] (bot_description) StdoutLine: {'line': b'-- Found assimp: /usr/include (found version "5.2.0") \n'}
+[0.864337] (bot_description) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[0.880024] (bot_description) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time \n'}
+[0.888501] (bot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[0.890845] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[0.894251] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[0.895113] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[0.895442] (bot_description) StdoutLine: {'line': b'-- OGRE_PREFIX_WATCH changed.\n'}
+[0.899684] (bot_description) StdoutLine: {'line': b"-- Checking for module 'OGRE'\n"}
+[0.900910] (-) TimerEvent: {}
+[0.909040] (bot_description) StdoutLine: {'line': b'--   Found OGRE, version 1.9.0\n'}
+[0.941413] (bot_description) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[0.946008] (bot_description) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[0.952388] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[0.955281] (bot_description) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[0.955319] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[0.958019] (bot_description) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[0.958053] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[0.960462] (bot_description) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[0.960541] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[0.963109] (bot_description) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[0.963176] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[0.965537] (bot_description) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[0.965602] (bot_description) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[0.968069] (bot_description) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.001115] (-) TimerEvent: {}
+[1.022160] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.023164] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.023312] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[1.033638] (bot_description) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[1.039239] (bot_description) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[1.043021] (bot_description) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[1.053252] (bot_description) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[1.098554] (bot_description) StdoutLine: {'line': b'-- Found ZeroMQ: TRUE (Required is at least version "4") \n'}
+[1.101232] (-) TimerEvent: {}
+[1.106763] (bot_description) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[1.125036] (bot_description) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[1.176723] (bot_description) StdoutLine: {'line': b'-- Found UUID: TRUE  \n'}
+[1.180271] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.180938] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[1.193670] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.197673] (bot_description) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[1.201307] (-) TimerEvent: {}
+[1.207254] (bot_description) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[1.240673] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.242103] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.242348] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[1.242509] (bot_description) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[1.243244] (bot_description) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[1.244508] (bot_description) StdoutLine: {'line': b'-- Found DL: TRUE  \n'}
+[1.254619] (bot_description) StdoutLine: {'line': b'-- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") \n'}
+[1.254800] (bot_description) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[1.256138] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[1.256387] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[1.256653] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.257979] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[1.258063] (bot_description) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[1.301458] (-) TimerEvent: {}
+[1.324527] (bot_description) StdoutLine: {'line': b'-- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  \n'}
+[1.330669] (bot_description) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[1.344809] (bot_description) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[1.376148] (bot_description) StdoutLine: {'line': b'-- Found JSONCPP: TRUE  \n'}
+[1.384434] (bot_description) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[1.401565] (-) TimerEvent: {}
+[1.404129] (bot_description) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[1.435447] (bot_description) StdoutLine: {'line': b'-- Found ZIP: TRUE  \n'}
+[1.436128] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[1.436893] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.15.1\n'}
+[1.437676] (bot_description) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[1.441530] (bot_description) StdoutLine: {'line': b'-- Gazebo version: 11.10\n'}
+[1.441828] (bot_description) StdoutLine: {'line': b"-- Checking for module 'tbb'\n"}
+[1.459177] (bot_description) StdoutLine: {'line': b'--   Found tbb, version 2021.5.0\n'}
+[1.501140] (bot_description) StdoutLine: {'line': b'-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)\n'}
+[1.501615] (-) TimerEvent: {}
+[1.534690] (bot_description) StdoutLine: {'line': b"-- Checking for module 'ncurses'\n"}
+[1.544309] (bot_description) StdoutLine: {'line': b'--   Found ncurses, version 6.3.20211021\n'}
+[1.601736] (-) TimerEvent: {}
+[1.612776] (bot_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.619892] (bot_description) StdoutLine: {'line': b'-- Generating done\n'}
+[1.623208] (bot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/predator/akash_ws/build/bot_description\n'}
+[1.631229] (bot_description) CommandEnded: {'returncode': 0}
+[1.631707] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'build'}
+[1.632149] (bot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/predator/akash_ws/build/bot_description', '--', '-j20', '-l20'], 'cwd': '/home/predator/akash_ws/build/bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'predator'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/predator'), ('OLDPWD', '/home/predator/akash_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5011'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/predator/akash_ws/install:/home/predator/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'predator'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'predator'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/predator/assignment_ws/install/testbed_description/share/testbed_description'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/lib/gazebo_ros:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/predator-Predator-PH315-55:@/tmp/.ICE-unix/1828,unix/predator-Predator-PH315-55:/tmp/.ICE-unix/1828'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa70ee4e_4ce9_4a27_8acb_48c86916e6b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5A8A52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/predator/akash_ws/build/bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/predator/assignment_ws/install/testbed_description/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble')]), 'shell': False}
+[1.669183] (bot_description) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive.dir/src/diffdrive.cpp.o\x1b[0m\n'}
+[1.670284] (bot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o\x1b[0m\n'}
+[1.701854] (-) TimerEvent: {}
+[1.802103] (-) TimerEvent: {}
+[1.902420] (-) TimerEvent: {}
+[2.002642] (-) TimerEvent: {}
+[2.102975] (-) TimerEvent: {}
+[2.203260] (-) TimerEvent: {}
+[2.303511] (-) TimerEvent: {}
+[2.403864] (-) TimerEvent: {}
+[2.504133] (-) TimerEvent: {}
+[2.604401] (-) TimerEvent: {}
+[2.704664] (-) TimerEvent: {}
+[2.804915] (-) TimerEvent: {}
+[2.905201] (-) TimerEvent: {}
+[3.005447] (-) TimerEvent: {}
+[3.105696] (-) TimerEvent: {}
+[3.205927] (-) TimerEvent: {}
+[3.306291] (-) TimerEvent: {}
+[3.406531] (-) TimerEvent: {}
+[3.506778] (-) TimerEvent: {}
+[3.607131] (-) TimerEvent: {}
+[3.707381] (-) TimerEvent: {}
+[3.807597] (-) TimerEvent: {}
+[3.907842] (-) TimerEvent: {}
+[4.008082] (-) TimerEvent: {}
+[4.108396] (-) TimerEvent: {}
+[4.115992] (bot_description) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable diffdrive\x1b[0m\n'}
+[4.131824] (bot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable controller\x1b[0m\n'}
+[4.208486] (-) TimerEvent: {}
+[4.224961] (bot_description) StdoutLine: {'line': b'[100%] Built target diffdrive\n'}
+[4.252321] (bot_description) StdoutLine: {'line': b'[100%] Built target controller\n'}
+[4.259833] (bot_description) CommandEnded: {'returncode': 0}
+[4.260374] (bot_description) JobProgress: {'identifier': 'bot_description', 'progress': 'install'}
+[4.265688] (bot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/predator/akash_ws/build/bot_description'], 'cwd': '/home/predator/akash_ws/build/bot_description', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'predator'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/predator'), ('OLDPWD', '/home/predator/akash_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '5011'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/predator/akash_ws/install:/home/predator/assignment_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'predator'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'predator'), ('TERM', 'xterm-256color'), ('GAZEBO_MODEL_PATH', '/usr/share/gazebo-11/models:/home/predator/assignment_ws/install/testbed_description/share/testbed_description'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/lib/gazebo_ros:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/predator-Predator-PH315-55:@/tmp/.ICE-unix/1828,unix/predator-Predator-PH315-55:/tmp/.ICE-unix/1828'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fa70ee4e_4ce9_4a27_8acb_48c86916e6b1'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.5A8A52'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.108'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/predator/akash_ws/build/bot_description'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('GAZEBO_PLUGIN_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/home/predator/assignment_ws/install/testbed_description/lib'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/predator/akash_ws/install/bot_description:/home/predator/assignment_ws/install/testbed_gazebo:/home/predator/assignment_ws/install/testbed_description:/home/predator/assignment_ws/install/testbed_bringup:/opt/ros/humble')]), 'shell': False}
+[4.272532] (bot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.272646] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/controller\n'}
+[4.273733] (bot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/controller" to ""\n'}
+[4.273804] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive\n'}
+[4.274389] (bot_description) StdoutLine: {'line': b'-- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive" to ""\n'}
+[4.274459] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch\n'}
+[4.274493] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/final.launch.py\n'}
+[4.274523] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/controller.launch.py\n'}
+[4.274550] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/view_bot.launch.py\n'}
+[4.274575] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__\n'}
+[4.274599] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__/spawn.launch.cpython-310.pyc\n'}
+[4.274652] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/spawn.launch.py\n'}
+[4.274676] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz\n'}
+[4.274700] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz/bot.rviz\n'}
+[4.274725] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description\n'}
+[4.274779] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description/bot.urdf\n'}
+[4.274809] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description/gazebo_control.xacro\n'}
+[4.274858] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description\n'}
+[4.274899] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description\n'}
+[4.274924] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh\n'}
+[4.274957] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv\n'}
+[4.274982] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.sh\n'}
+[4.275007] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.dsv\n'}
+[4.275031] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.bash\n'}
+[4.275056] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.sh\n'}
+[4.275098] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.zsh\n'}
+[4.275125] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.dsv\n'}
+[4.275151] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.dsv\n'}
+[4.275191] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description\n'}
+[4.275223] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake\n'}
+[4.275267] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake\n'}
+[4.275293] (bot_description) StdoutLine: {'line': b'-- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.xml\n'}
+[4.276511] (bot_description) CommandEnded: {'returncode': 0}
+[4.285277] (bot_description) JobEnded: {'identifier': 'bot_description', 'rc': 0}
+[4.285611] (-) EventReactorShutdown: {}

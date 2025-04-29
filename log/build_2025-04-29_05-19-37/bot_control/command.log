@@ -1,0 +1,6 @@
+Invoking command in '/home/predator/akash_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/bot_control -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_control
+Invoked command in '/home/predator/akash_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/bot_control -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_control
+Invoking command in '/home/predator/akash_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_control -- -j20 -l20
+Invoked command in '/home/predator/akash_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_control -- -j20 -l20
+Invoking command in '/home/predator/akash_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_control
+Invoked command in '/home/predator/akash_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_control

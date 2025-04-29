@@ -1,0 +1,26 @@
+[0.007s] Invoking command in '/home/predator/akash_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_control -- -j20 -l20
+[0.045s] [100%] Built target reading_laser
+[0.055s] Invoked command in '/home/predator/akash_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_control -- -j20 -l20
+[0.061s] Invoking command in '/home/predator/akash_ws/build/bot_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_control
+[0.066s] -- Install configuration: ""
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/lib/bot_control/reading_laser
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/lib/bot_control
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/lib/bot_control/reading_laser.cpp
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control//launch
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control//launch/reading_laser.launch.py
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/ament_index/resource_index/package_run_dependencies/bot_control
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/ament_index/resource_index/parent_prefix_path/bot_control
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/environment/ament_prefix_path.sh
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/environment/ament_prefix_path.dsv
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/environment/path.sh
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/environment/path.dsv
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/local_setup.bash
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/local_setup.sh
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/local_setup.zsh
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/local_setup.dsv
+[0.066s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/package.dsv
+[0.067s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/ament_index/resource_index/packages/bot_control
+[0.067s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/cmake/bot_controlConfig.cmake
+[0.067s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/cmake/bot_controlConfig-version.cmake
+[0.067s] -- Up-to-date: /home/predator/akash_ws/install/bot_control/share/bot_control/package.xml
+[0.068s] Invoked command in '/home/predator/akash_ws/build/bot_control' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_control

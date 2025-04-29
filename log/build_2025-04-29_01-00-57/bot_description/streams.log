@@ -1,0 +1,151 @@
+[0.006s] Invoking command in '/home/predator/akash_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_description
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.080s] -- The CXX compiler identification is GNU 11.4.0
+[0.084s] -- Detecting C compiler ABI info
+[0.134s] -- Detecting C compiler ABI info - done
+[0.139s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.139s] -- Detecting C compile features
+[0.139s] -- Detecting C compile features - done
+[0.141s] -- Detecting CXX compiler ABI info
+[0.199s] -- Detecting CXX compiler ABI info - done
+[0.206s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.206s] -- Detecting CXX compile features
+[0.206s] -- Detecting CXX compile features - done
+[0.207s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.305s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.362s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.388s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.391s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.396s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.403s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.414s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.439s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.441s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.503s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.522s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.548s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.553s] -- Looking for pthread.h
+[0.605s] -- Looking for pthread.h - found
+[0.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.662s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.663s] -- Found Threads: TRUE  
+[0.691s] -- Found gazebo_ros: 3.9.0 (/opt/ros/humble/share/gazebo_ros/cmake)
+[0.697s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.698s] -- Checking for module 'bullet>=2.82'
+[0.708s] --   Found bullet, version 3.05
+[0.792s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.851s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.864s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.880s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.888s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.890s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.894s] -- Searching for dependencies of ignition-math6
+[0.895s] -- Looking for OGRE...
+[0.895s] -- OGRE_PREFIX_WATCH changed.
+[0.899s] -- Checking for module 'OGRE'
+[0.909s] --   Found OGRE, version 1.9.0
+[0.941s] -- Found Ogre Ghadamon (1.9.0)
+[0.946s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.952s] -- Looking for OGRE_Paging...
+[0.955s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.955s] -- Looking for OGRE_Terrain...
+[0.958s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.958s] -- Looking for OGRE_Property...
+[0.960s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.960s] -- Looking for OGRE_RTShaderSystem...
+[0.963s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.963s] -- Looking for OGRE_Volume...
+[0.965s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.965s] -- Looking for OGRE_Overlay...
+[0.968s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.022s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.023s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.023s] -- Searching for dependencies of ignition-transport8
+[1.033s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[1.039s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.043s] -- Checking for module 'libzmq >= 4'
+[1.053s] --   Found libzmq , version 4.3.4
+[1.098s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.106s] -- Checking for module 'uuid'
+[1.125s] --   Found uuid, version 2.37.2
+[1.176s] -- Found UUID: TRUE  
+[1.180s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.180s] -- Searching for dependencies of ignition-msgs5
+[1.193s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.197s] -- Checking for module 'tinyxml2'
+[1.207s] --   Found tinyxml2, version 9.0.0
+[1.240s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.242s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.242s] -- Searching for dependencies of ignition-common3
+[1.242s] -- Looking for dlfcn.h - found
+[1.243s] -- Looking for libdl - found
+[1.244s] -- Found DL: TRUE  
+[1.254s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[1.254s] -- Searching for <ignition-common3> component [graphics]
+[1.256s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[1.256s] -- Searching for dependencies of ignition-common3-graphics
+[1.256s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.257s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[1.258s] -- Searching for dependencies of ignition-fuel_tools4
+[1.324s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.330s] -- Checking for module 'jsoncpp'
+[1.344s] --   Found jsoncpp, version 1.9.5
+[1.376s] -- Found JSONCPP: TRUE  
+[1.384s] -- Checking for module 'libzip'
+[1.404s] --   Found libzip, version 1.7.3
+[1.435s] -- Found ZIP: TRUE  
+[1.436s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.436s] -- Looking for ignition-math6 -- found version 6.15.1
+[1.437s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.441s] -- Gazebo version: 11.10
+[1.441s] -- Checking for module 'tbb'
+[1.459s] --   Found tbb, version 2021.5.0
+[1.501s] -- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+[1.534s] -- Checking for module 'ncurses'
+[1.544s] --   Found ncurses, version 6.3.20211021
+[1.612s] -- Configuring done
+[1.619s] -- Generating done
+[1.623s] -- Build files have been written to: /home/predator/akash_ws/build/bot_description
+[1.631s] Invoked command in '/home/predator/akash_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/predator/akash_ws/src/bot_description -DCMAKE_INSTALL_PREFIX=/home/predator/akash_ws/install/bot_description
+[1.632s] Invoking command in '/home/predator/akash_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20
+[1.669s] [ 25%] [32mBuilding CXX object CMakeFiles/diffdrive.dir/src/diffdrive.cpp.o[0m
+[1.670s] [ 50%] [32mBuilding CXX object CMakeFiles/controller.dir/src/controller.cpp.o[0m
+[4.116s] [ 75%] [32m[1mLinking CXX executable diffdrive[0m
+[4.131s] [100%] [32m[1mLinking CXX executable controller[0m
+[4.225s] [100%] Built target diffdrive
+[4.252s] [100%] Built target controller
+[4.259s] Invoked command in '/home/predator/akash_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/predator/akash_ws/build/bot_description -- -j20 -l20
+[4.266s] Invoking command in '/home/predator/akash_ws/build/bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_description
+[4.272s] -- Install configuration: ""
+[4.272s] -- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/controller
+[4.273s] -- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/controller" to ""
+[4.273s] -- Installing: /home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive
+[4.274s] -- Set runtime path of "/home/predator/akash_ws/install/bot_description/lib/bot_description/diffdrive" to ""
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/final.launch.py
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/controller.launch.py
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/view_bot.launch.py
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/__pycache__/spawn.launch.cpython-310.pyc
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//launch/spawn.launch.py
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//rviz/bot.rviz
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description/bot.urdf
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description//description/gazebo_control.xacro
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/package_run_dependencies/bot_description
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/parent_prefix_path/bot_description
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.sh
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/ament_prefix_path.dsv
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.sh
+[4.274s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/environment/path.dsv
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.bash
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.sh
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.zsh
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/local_setup.dsv
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.dsv
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/ament_index/resource_index/packages/bot_description
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig.cmake
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/cmake/bot_descriptionConfig-version.cmake
+[4.275s] -- Installing: /home/predator/akash_ws/install/bot_description/share/bot_description/package.xml
+[4.276s] Invoked command in '/home/predator/akash_ws/build/bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/predator/akash_ws/build/bot_description
